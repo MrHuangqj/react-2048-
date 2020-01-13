@@ -1,0 +1,23 @@
+.content {
+  width: 9.2rem;
+  height: 9.2rem;
+  background-color: #bcafa1;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.1rem;
+  box-sizing: border-box;
+
+  .block {
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    background-color: #cec2b5;
+    text-align: center;
+    line-height: 1.9rem;
+    color: #fff;
+  }
+}

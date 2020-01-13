@@ -1,60 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-class Square extends React.Component {
-  render() {
-    return (
-      <button className="square">
-        {/* TODO */}
-      </button>
-    );
-  }
-}
-
-class Board extends React.Component {
-  renderSquare(i) {
-    return <Square />;
-  }
-
-  render() {
-    const status = 'Next player: X';
-
-    return (
-      <div>
-        <div className="status">{status}</div>
-        <div className="board-row">
-          {this.renderSquare(0)}
-          {this.renderSquare(1)}
-          {this.renderSquare(2)}
-        </div>
-        <div className="board-row">
-          {this.renderSquare(3)}
-          {this.renderSquare(4)}
-          {this.renderSquare(5)}
-        </div>
-        <div className="board-row">
-          {this.renderSquare(6)}
-          {this.renderSquare(7)}
-          {this.renderSquare(8)}
-        </div>
-      </div>
-    );
-  }
-}
+import "lib-flexible"
+import Header from './components/Header';
+import Content from './components/Content';
 
 class Game extends React.Component {
-  render() {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      score: 0,
+    };
+  }
+  setScore = (score) => {
+    console.log('分数：', score);
+    this.setState({
+      score: score,
+    });
+  }
+  render () {
     return (
       <div className="game">
-        <div className="game-header">
-        </div>
+        <Header score={this.state.score} />
+        <Content setScore={this.setScore} />
       </div>
     );
   }
 }
-
-
 
 // ========================================
 

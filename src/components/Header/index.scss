@@ -1,0 +1,74 @@
+.header {
+  &Item {
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .name {
+      font-size: 1rem;
+      color: #786f65;
+    }
+
+    .main {
+      font-size: 0.4rem;
+      display: flex;
+      width: 4.2rem;
+      justify-content: space-between;
+
+      .score {
+        background-color: #bcafa1;
+        height: 2rem;
+        width: 2rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 0.2rem;
+
+        &H2 {
+          font-size: 0.4rem;
+          color: #ede3d9;
+        }
+
+        &P {
+          font-size: 0.6rem;
+          color: #fff;
+        }
+      }
+
+      .best {
+        @extend .score
+      }
+    }
+  }
+
+  .tip {
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    &Message {
+      height: 2rem;
+      width: 5.1rem;
+      font-size: 0.5rem;
+      color: #9e978d;
+
+      .span {
+        color: #776e64;
+      }
+    }
+
+    .gameStart {
+      font-size: 0.5rem;
+      width: 3.5rem;
+      border-radius: 0.2rem;
+      height: 1.5rem;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #907b66;
+    }
+  }
+}

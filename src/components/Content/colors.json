@@ -1,0 +1,86 @@
+[
+  [
+    0,
+    {
+      "backgroundColor": "#cec2b5",
+      "color": "#776e65"
+    }
+  ],
+  [
+    2,
+    {
+      "backgroundColor": "#eee4da",
+      "color": "#776e65"
+    }
+  ],
+  [
+    4,
+    {
+      "backgroundColor": "#ede0c7",
+      "color": "#776e65"
+    }
+  ],
+  [
+    8,
+    {
+      "backgroundColor": "#f2b178",
+      "color": "#f9f6f1"
+    }
+  ],
+  [
+    16,
+    {
+      "backgroundColor": "#f59563",
+      "color": "#f9f6f1"
+    }
+  ],
+  [
+    32,
+    {
+      "backgroundColor": "#f67c5f",
+      "color": "#f9f6f1"
+    }
+  ],
+  [
+    64,
+    {
+      "backgroundColor": "#f6623d",
+      "color": "#f9f6f1"
+    }
+  ],
+  [
+    128,
+    {
+      "backgroundColor": "#edcf72",
+      "color": "#f9f6f1"
+    }
+  ],
+  [
+    256,
+    {
+      "backgroundColor": "#edcc61",
+      "color": "#f9f6f1"
+    }
+  ],
+  [
+    512,
+    {
+      "backgroundColor": "#edc850",
+      "color": "#f9f6f1"
+    }
+  ],
+  [
+    1024,
+    {
+      "backgroundColor": "#edc53f",
+      "color": "#f9f6f1"
+    }
+  ],
+  [
+    2048,
+    {
+      "backgroundColor": "#eec22e",
+      "color": "#f9f6f1"
+    }
+  ]
+]
